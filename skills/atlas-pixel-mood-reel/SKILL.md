@@ -54,6 +54,3 @@ These worked so far. Treat them as starting points, not rules.
 ## References
 
 - `references/anime-pixel-clips.md`: the full procedure and recipes for these clips: base prompts, pixelize settings, eye, blink, mouth and smoke recipes, light maps, colour swings, headlights, the choppy TV, songs and spatial audio, and delivery checks.
-- `references/dialogue-cutscene-reel.md`: game-cutscene reels with dialogue boxes, sprites, fights and a song.
-- `references/fermi-timelapse-reel.md`: the "absurd task, one per second" chiptune series.
-- `references/ascii-glyph-scene-recreation.md`: recreating an ASCII-glyph night scene with a pixel sprite.
