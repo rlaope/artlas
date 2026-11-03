@@ -18,6 +18,8 @@ Short vertical clips (15-30 s, 1080x1920, 30 fps by default; use the requested f
 
 Use the requester's latest style instruction to choose the source workflow. The default anime recipe below applies to anime illustration beneath a visible pixel grid. For **original-game dots, native sprites or the actual game's small characters**, read [native game pixel scenes](references/native-game-pixel.md) before choosing assets. Start from native game frames and their scale, palette and origins; generate only missing poses in that style. This branch replaces the anime base-generation and pixelization steps, including mouthless-face, anatomy and palette defaults. Do not restart an anime-illustration loop or shrink an earlier illustration after the requester has chosen native game pixels.
 
+For DELTARUNE game-pixel story reels, use the dedicated [atlas-deltarune-reel](../atlas-deltarune-reel/SKILL.md) when available; it includes game-specific asset, pose, effect and sound procedures.
+
 ## The core: these four come first
 
 Every decision is judged against these. Explicit requester instructions take priority; otherwise these guide later defaults and recipes.
