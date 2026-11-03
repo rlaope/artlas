@@ -28,7 +28,7 @@ Still captures from the six delivered clips. The videos and songs are not stored
   <tr>
     <td align="center"><img src="docs/gallery/miku-sofa.jpg" width="220" alt="Miku on the sofa"><br><b>Miku on the sofa</b><br><sub>Hatsune Miku · 20 s<br>Caramelldansen</sub></td>
     <td align="center"><img src="docs/gallery/gojo-death.jpg" width="220" alt="Gojo"><br><b>Gojo</b><br><sub>Jujutsu Kaisen · 15 s<br>青のすみか</sub></td>
-    <td align="center"><img src="docs/gallery/roxy-moonlight.jpg" width="220" alt="Roxy in a cold room as moonlight passes across her"><br><b>Roxy, after midnight</b><br><sub>Mushoku Tensei · 24 s · 60 fps<br>Mitski · My Love Mine All Mine</sub><br><a href="docs/ROXY.md">Motion and audio notes</a></td>
+    <td align="center"><img src="docs/gallery/roxy-moonlight.jpg" width="220" alt="Roxy in a cold room as moonlight passes across her"><br><b>Roxy, after midnight</b><br><sub>Mushoku Tensei · 24 s · 4K · 60 fps<br>Mitski · My Love Mine All Mine</sub><br><a href="docs/ROXY.md">Motion and audio notes</a></td>
   </tr>
 </table>
 
