@@ -1,4 +1,4 @@
-# Guide: making an Atlas reel
+# Guide: making an Artlas reel
 
 This guide walks through one piece from request to delivery, using the Lucy clip (`docs/gallery/lucy-chair.jpg`) as the worked example. The rules behind every step are in [`skills/atlas-pixel-mood-reel/SKILL.md`](../skills/atlas-pixel-mood-reel/SKILL.md).
 
@@ -7,9 +7,9 @@ This guide walks through one piece from request to delivery, using the Lucy clip
 With Hermes Agent:
 
 ```bash
-git clone https://github.com/rlaope/atlas.git
+git clone https://github.com/rlaope/artlas.git
 mkdir -p ~/.hermes/skills/creative
-cp -r atlas/skills/atlas-pixel-mood-reel ~/.hermes/skills/creative/
+cp -r artlas/skills/atlas-pixel-mood-reel ~/.hermes/skills/creative/
 ```
 
 Then ask for a reel in plain words. The skill loads on requests like "make a dark pixel clip of Lucy in her armchair, with I Really Want to Stay at Your House".
