@@ -2,7 +2,7 @@
 
 Roxy Migurdia sits in a cold room with a cigarette and a faint candle. A narrow band of moonlight enters through the right curtain gap, reaches her face, braids and lap, then fades as though clouds cover the moon. This is a fan-made situation, with the accepted blue braids, witch hat and magician robe preserved.
 
-The requested format is 24 seconds, 1080×1920 at 60 fps, with no on-screen titles, captions, lyrics or decorative labels. The same clean full-frame master serves both exports; the video and music files are not stored in this repository.
+The requested format is 24 seconds, 1080×1920 at 60 fps, with no on-screen titles, captions, lyrics or decorative labels. The completed delivery is one canonical full-frame MP4; additional formats or exports require an explicit request. Library copies preserve that same master's bytes. The video and music files are not stored in this repository.
 
 ## What the feedback changed
 
@@ -29,4 +29,4 @@ The reusable procedure is in [the feedback-loop reference](../skills/atlas-pixel
 
 The independent review of the exact v3 exports passed: the full arrival over 3–9 seconds, gradual withdrawal and completely unlit ending at 22.5–23.983 seconds retain the cold mood, accepted character and text-free frame. All 1,440 decoded frames are unique; full decode and the requested 1080×1920, 60 fps, 24-second format passed. The final mux copies the reviewed silent video's packets exactly, and the decoded audio matches the measured Mitski mix at correlation 0.9999966. Sampled scene regeneration at 0, 9.5 and 23.983 seconds passed with access to previous project folders denied; no denied open was attempted.
 
-Both full-frame exports are 10,162,552 bytes and share SHA256 `6ebeeed6a275a88a08a54e724183c1057f8c3d190e90238c8561ce90c60e0523`. Audio is AAC, 48 kHz stereo; the delivery meter reads −14.0 LUFS integrated and −2.83 dBTP. The gallery image is a decoded 9.5-second frame of that exact final master, resized only for the still gallery. Library copies must retain the approved master bytes.
+The original verification covered two byte-identical delivery copies, each 10,162,552 bytes with SHA256 `6ebeeed6a275a88a08a54e724183c1057f8c3d190e90238c8561ce90c60e0523`; those were historical duplicates of the one canonical master, not distinct formats. Audio is AAC, 48 kHz stereo; the delivery meter reads −14.0 LUFS integrated and −2.83 dBTP. The gallery image is a decoded 9.5-second frame of that exact final master, resized only for the still gallery. Library copies must retain the approved master bytes.

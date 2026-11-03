@@ -264,8 +264,8 @@ Scope: short vertical clips (15-30 s, 1080x1920). A famous anime scene or charac
 - ffprobe the stream and frame counts, run a full `-f null` decode, and run ebur128.
 - Vision-read a decoded frame strip (2-2.5 s apart) and one phone-size frame (a "3-second read").
 - For high-frame-rate character work, also review the encoded motion proof using the [feedback loop](feedback-loop.md); widely spaced stills cannot reveal a snapping blink or a detached emitter.
-- Preserve the approved full-frame master. Follow the requester's delivery/version rules; a text-free 9:16 master can be copied directly for another 9:16 export without adding a title wrapper or re-encoding.
-- **Optional Discord copy, only when a 10 MB limit is required:** retain the approved master and identify the smaller copy separately.
+- Deliver one approved full-frame MP4 by default; do not duplicate it into normal/shorts exports. Additional formats require an explicit request. Preserve quality and the requested text policy without a title wrapper or re-encoding; library copies retain the same master bytes.
+- **Additional Discord copy, only when explicitly requested for a 10 MB limit:** retain the approved master and identify the smaller copy separately.
   - Encode at CRF 18 first and check the size. Two-pass is needed only above about 9.5 MB. A dark, mostly static 30 s scene came out at about 3.5 MB; 15 s at CRF 17 came out at about 3.8 MB. A 25 s scene with an animated broadcast on a TV, cut flashes and scanlines, came out at about 9.4 MB at CRF 18, which is near the cap.
   - Busy screen footage at 20 s came out at about 12 MB at CRF 18. Two-pass at about 3.4 Mb/s gives about 8.8 MB; for longer cuts, scale that bitrate by 20/duration.
 - **Report:** what the picture shows, what moves, the song segment and where the hook lands, and the limits. Limits include a scene not yet animated (the still was generated from the manga composition) and the platform mute risk.

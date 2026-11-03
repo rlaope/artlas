@@ -31,6 +31,7 @@ Every decision is judged against these. Explicit requester instructions take pri
 - **Composition.** No ceiling-down camera. Leave empty dark space above the head. Keep props few. Keep named elements out of the Reels UI: the right-edge button column and the top and bottom bands.
 - **A real room.** Dark does not mean empty. The background is a readable interior in the dark (a window with neon blinds, pipes, a shelf, a poster).
 - **Text follows the request.** Default to full-frame artwork without added titles, caption bars, lyrics or decorative labels. Add wording only when it belongs to the requested scene or the requester asks for it; a request for no text also removes title framing from alternate exports.
+- **One completed MP4.** Deliver one canonical master by default. For Atlas, this takes precedence over generic workflows that create a normal/shorts pair; additional formats or delivery exports require an explicit request. Library copies may preserve that same master's bytes without becoming separate versions. Keep its full quality and text policy, with no unrequested title wrapper or re-encoding.
 - **Working method.** Check a phone-size still before rendering, then review actual decoded motion using the [feedback loop](references/feedback-loop.md). Fix every weakness that can be fixed before delivering. List as "remaining" only what truly cannot be fixed in this base, with the reason. Read the other collaborator's review posts as well.
 
 ## Defaults that change per piece
@@ -51,7 +52,7 @@ These worked so far. Treat them as starting points, not rules.
 4. **Light.** Build the light map from the drawing's own lit planes and recolour at constant luminance. Darken the base away from the source. Check region means in code, not only by eye.
 5. **Motion.** Choose the acting beats, evaluate each output timestamp and render a short proof covering their peaks and transitions. Use the reference's character-motion recipe when stronger acting is requested; keep the pixel grid and static room coherent.
 6. **Sound.** Fetch the official upload, verify the requested start against that file's own onsets, build the room path, add close effects separately, and loudness-normalise. When listening is unavailable, report measurement evidence (C50, T30, syllable-envelope correlation, transient scan) and mark listening as not observed.
-7. **Verify and deliver.** Complete the feedback loop on the exact final MP4: ffprobe, full decode, ebur128, decoded motion and phone-size inspection. Preserve the approved master and the requester's quality/version rules. Make a smaller share copy only for an explicitly required platform limit, and identify it separately.
+7. **Verify and deliver.** Complete the feedback loop on the exact final MP4: ffprobe, full decode, ebur128, decoded motion and phone-size inspection. Deliver the single approved master under the requester's quality/version rules. Make an additional smaller share copy only when explicitly requested for a platform limit, and identify it separately.
 
 ## References
 
