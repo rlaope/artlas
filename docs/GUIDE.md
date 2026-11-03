@@ -27,9 +27,13 @@ Turn the request into a short spec before generating anything. For Lucy:
 - **Motion:** the news on the TV (stuttering), its light on her, smoke, ember, breathing, hair tips, a slow tear, a car passing outside.
 - **Song:** "I Really Want to Stay at Your House", the hook at about 10 s.
 
+These are the Lucy example's choices, not fixed defaults. Record the current request's frame rate, text policy, named character, source-file music start and acting beats. A requested phrase starts the clip; use the timing procedure in the skill reference to account for a music-video intro.
+
 ## 2. Make the base still
 
 Generate a TV-anime key frame at 1024x1536. Name the camera height ("armrest height, oblique side view"), the pose word for word, the light and where it falls, the room behind her, and the TV screen as a flat `#00FF00` placeholder. Generate two candidates, pixelize both, and compare them at phone size.
+
+Use stable candidate IDs outside the artwork and record the requester's accepted source as specified in the skill. This keeps display order from selecting a different illustration.
 
 Common fixes:
 
@@ -58,16 +62,19 @@ Check: the dots are visible at phone size, and the face still reads.
 - **Tear:** a drop forms under the forearm, slides down a measured cheek path over 8 s, leaves a faint wet trail, fades at the jaw and repeats.
 - **Also:** particle smoke from the ember, a slow drag on the ember, and a 1-cell breathing rise.
 
+For a request for more visible character animation, use the reference's **When fluid character motion is requested** procedure: matched motion plates, connected foreground parts, motion evaluated at each output timestamp and a short encoded acting proof.
+
 ## 6. Sound
 
-Fetch the official upload. Find the hook on the file itself (lyric times, then the vocal-band onset), and cut so it lands near 10 s. Build the room path for the chosen space: speaker character, reflections, pre-delay, late tail and air. Keep the song clearly above the bed. Add close effects separately. Finish with a limiter and two-pass loudnorm to -14 LUFS.
+Fetch the official upload. Verify the requested start on that file itself (lyric timing aligned to the source, then the vocal-band onset); the Lucy example places its hook near 10 s. Build the room path for the chosen space: speaker character, reflections, pre-delay, late tail and air. Keep the song clearly above the bed. Add close effects separately. Finish with a limiter and two-pass loudnorm to -14 LUFS.
 
 ## 7. Check and deliver
 
 - ffprobe the streams and frame counts, run a full decode, and run ebur128.
 - Look at a decoded frame strip, and at one phone-size frame against the four core rules.
 - Fix what can be fixed. Report as remaining only what this base cannot fix, with the reason.
-- Keep the share copy under 10 MB.
+- Follow the [feedback loop](../skills/atlas-pixel-mood-reel/references/feedback-loop.md) on the exact encoded candidate before delivery.
+- Deliver the requested text-free or text-bearing format without adding unrequested title framing. Preserve master quality; the reference's smaller Discord copy is optional when that platform limit is required.
 
 ## Feedback this style was built from
 

@@ -1,6 +1,6 @@
 # Atlas
 
-Dark pixel-anime mood reels: a famous character moment redrawn as a still pixel scene. One light falls across it, things move slowly, and a song plays inside the room.
+Dark pixel-anime mood reels: a famous character moment redrawn as a pixel scene. Light falls across it, things move slowly, and a song plays inside the room.
 
 This repository holds the gallery of finished pieces, the skill that produces them, and a step-by-step guide.
 
@@ -10,14 +10,14 @@ Every piece is judged by four things:
 
 1. **High-quality dot art, and the dissonance it creates.** The grid is coarse enough to read as pixel art on a phone, and the drawing under it is TV-anime quality. The tension between the two is the look.
 2. **Gloom.** A dark room at night, decadent and lonely. No sweet or pastel grading.
-3. **Light staging.** One source, a visible light shape on the face, the hands and the smoke, changing slowly.
+3. **Light staging.** One dominant source by default, with a visible light shape on the face, the hands and the smoke, changing slowly. A requested secondary source follows the same local staging.
 4. **Darkness staging.** Whatever the light does not reach sinks into darkness.
 
 The full rule set, the defaults that change per piece (face, song, spatial sound, effects) and the pipeline are in [`skills/atlas-pixel-mood-reel/SKILL.md`](skills/atlas-pixel-mood-reel/SKILL.md). [`docs/GUIDE.md`](docs/GUIDE.md) walks through one piece end to end.
 
 ## Gallery
 
-Still captures from the five delivered clips. The videos and songs are not stored here.
+Still captures from the six delivered clips. The videos and songs are not stored here.
 
 <table>
   <tr>
@@ -28,7 +28,7 @@ Still captures from the five delivered clips. The videos and songs are not store
   <tr>
     <td align="center"><img src="docs/gallery/miku-sofa.jpg" width="220" alt="Miku on the sofa"><br><b>Miku on the sofa</b><br><sub>Hatsune Miku · 20 s<br>Caramelldansen</sub></td>
     <td align="center"><img src="docs/gallery/gojo-death.jpg" width="220" alt="Gojo"><br><b>Gojo</b><br><sub>Jujutsu Kaisen · 15 s<br>青のすみか</sub></td>
-    <td></td>
+    <td align="center"><img src="docs/gallery/roxy-moonlight.jpg" width="220" alt="Roxy in a cold room as moonlight passes across her"><br><b>Roxy, after midnight</b><br><sub>Mushoku Tensei · 24 s · 60 fps<br>Mitski · My Love Mine All Mine</sub><br><a href="docs/ROXY.md">Motion and audio notes</a></td>
   </tr>
 </table>
 
