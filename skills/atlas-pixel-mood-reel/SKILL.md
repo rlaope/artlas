@@ -1,7 +1,7 @@
 ---
 name: atlas-pixel-mood-reel
 description: "Use when making a dark Atlas pixel mood reel with focused light, gloom and music, using either anime illustration or the requested game's native sprites."
-version: 1.2.1
+version: 1.2.2
 author: rlaope (khope), Friren, Kami
 license: MIT
 metadata:
