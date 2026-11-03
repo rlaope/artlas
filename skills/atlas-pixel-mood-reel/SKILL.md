@@ -25,6 +25,7 @@ Every decision is judged against these. When a later rule seems to conflict with
 
 ## Fixed rules
 
+- **Candidates first.** When a new illustration or base still is generated, post the candidate images first and let the requester pick one before building or rendering on it. Code-only fixes to an approved base need no candidate round.
 - **Motion every second.** Something moves at all times: the screen picture and its light, the ember, smoke, hair tips, breathing, a blink, a tear running slowly down the cheek. A screen in the scene may stutter on purpose, like an old TV with a bad signal.
 - **The character and the story.** Use the canonical outfit, exposure included, for adult characters. Anything the request centres on (for example the news report of a death on the TV) must read on a phone. The character is the subject of the frame, not the props.
 - **Composition.** No ceiling-down camera. Leave empty dark space above the head. Keep props few. Keep named elements out of the Reels UI: the right-edge button column and the top and bottom bands.
