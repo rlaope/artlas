@@ -270,6 +270,14 @@ Choose settings per base; the numbers below are recipe starting points, not mand
   - **Wind bed:** brown rumble plus hiss plus a narrow whistle that follows the gust curve.
 - **Finish:** alimiter, then two-pass linear loudnorm to -14 LUFS / TP -1.5. Parse the pass-1 JSON in code on every run (`stderr[stderr.rindex('{'):stderr.rindex('}')+1]`), so measured values never go stale after a remix. Confirm with ebur128 on the mux, and confirm the vocal band jumps at the promised clip time.
 
+### Bocchi closet sound reference
+
+- **Reference:** Bocchi closet v5, master SHA256 `c649a3061c4ce6df6bc0403a328bcc12bebfaf8737285df75e17496198c79a71`. Its correction record documents restored vocal highs and removal of clock ticks and guitar plucks whose reverberation produced recurring "챱챱". The recorded 2.6 s tail is a scene reference, not a universal target; these facts come from production records, not a new listening assessment.
+- **Keep the music emotionally present at a believable distance.** Choose the new scene's song and device, then shape the speaker, intervening gap or wall, and room reflections. Preserve the vocal rhythm and melody through that path; reuse the spatial principle rather than Bocchi's literal song or stems.
+- **Keep the ambient bed quiet and placed.** Fan noise, outdoor traffic or wind should establish the room and its boundaries without masking the music. Apply distance and occlusion appropriate to each source.
+- **Give local effects a cause and room to decay.** A nearby cloth, paper or phone event should contrast with the distant music and follow its visible action. Leave gaps between events; continuous added noise does not establish loneliness.
+- **Check the combined result.** Compare reference and candidate at matched listening level, including event arrivals, tails and quiet intervals. Record timestamps for perceived distance, vocal clarity, masking and visual synchrony alongside measurements. If listening is unavailable, mark it unobserved and keep perceptual approval pending.
+
 ## 5. Delivery checks
 
 - ffprobe the stream and frame counts, run a full `-f null` decode, and run ebur128.
